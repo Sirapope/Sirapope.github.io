@@ -26,9 +26,14 @@
 
     <main>
         <section id="home" class="hero">
-            <div class="container">
-                <h2>HI, My name is Sirapope</h2>
-                <p>I am currently in my fourth year at the Faculty of Information Technology, with a keen interest in web development and cybersecurity. I approach my work with enthusiasm and dedication, and I am eager to contribute to projects that integrate these two passions.</p>
+            <div class="container header-content">
+                <div class="aboutme">
+                    <h2>HI, My name is Sirapope</h2>
+                    <p>I am currently in my fourth year at the Faculty of Information Technology, with a keen interest in web development and cybersecurity. I approach my work with enthusiasm and dedication, and I am eager to contribute to projects that integrate these two passions.</p>
+                    <button>Contract Me</button>
+                </div>
+                
+                <img src="./images/myphoto.jpeg" width="400" class="myphoto">
             </div>
         </section>
 
@@ -36,16 +41,16 @@
             <div class="container">
                 <h2>Portfolio</h2>
                 <div class="project">
-                    <h3>Project One</h3>
-                    <p><strong>Description:</strong> A web application for managing tasks and deadlines.</p>
-                    <p><strong>Technologies:</strong> React, Node.js, MongoDB</p>
-                    <a href="https://github.com/johndoe/project-one" target="_blank">GitHub Repo</a>
+                    <h3>Capstone Project</h3>
+                    <p><strong>Description:</strong> A web-based attendance management system.</p>
+                    <p><strong>Technologies:</strong> React, Node.js, MySQL</p>
+                    <a href="https://github.com/johndoe/project-one" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github-logo" width="30"></a>
                 </div>
                 <div class="project">
                     <h3>Project Two</h3>
                     <p><strong>Description:</strong> An e-commerce platform with a custom payment gateway.</p>
                     <p><strong>Technologies:</strong> Angular, Django, PostgreSQL</p>
-                    <a href="https://github.com/johndoe/project-two" target="_blank">GitHub Repo</a>
+                    <a href="https://github.com/johndoe/project-two" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github-logo" width="30"></a>
                 </div>
                 <!-- Add more projects as needed -->
             </div>
@@ -53,8 +58,10 @@
 
         <section id="resume">
             <div class="container">
-                <h2>Resume</h2>
-                <p><a href="resume.pdf" download>Download Resume (PDF)</a></p>
+                <div class="pdf">
+                    <h2>Resume</h2>
+                    <embed src="Sirapope_Resume.pdf" width="500px" height="700px"/>
+                </div>
                 <div class="resume-section">
                     <h3>Summary</h3>
                     <p>I am a highly skilled full stack developer with 5+ years of experience in developing scalable web applications. Proficient in both front-end and back-end technologies, I am passionate about creating efficient and user-friendly applications.</p>
@@ -122,18 +129,8 @@
         <section id="contact">
             <div class="container">
                 <h2>Contact</h2>
-                <form id="contact-form">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                    
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-                    
-                    <button type="submit">Send</button>
-                </form>
+                <p><strong>Email: </strong>sirapope.c@gmail.com</p>
+                <p><strong>Github: </strong><a href="https://github.com/Sirapope" target="_blank">Link</a></p>
             </div>
         </section>
     </main>
